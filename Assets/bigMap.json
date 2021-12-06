@@ -50,37 +50,37 @@
          "tiles":[
                 {
                  "id":0,
-                 "image":"..\/..\/..\/..\/..\/PycharmProjects\/TiledDemo2021\/Assets\/clay_tile_64_01.png",
+                 "image":"clay_tile_64_01.png",
                  "imageheight":64,
                  "imagewidth":64
                 }, 
                 {
                  "id":1,
-                 "image":"..\/..\/..\/..\/..\/PycharmProjects\/TiledDemo2021\/Assets\/grass_01_tile_64_01.png",
+                 "image":"grass_01_tile_64_01.png",
                  "imageheight":64,
                  "imagewidth":64
                 }, 
                 {
                  "id":2,
-                 "image":"..\/..\/..\/..\/..\/PycharmProjects\/TiledDemo2021\/Assets\/ice_tile_64_01.png",
+                 "image":"ice_tile_64_01.png",
                  "imageheight":64,
                  "imagewidth":64
                 }, 
                 {
                  "id":3,
-                 "image":"..\/..\/..\/..\/..\/PycharmProjects\/TiledDemo2021\/Assets\/paving_01_tile_64_02.png",
+                 "image":"paving_01_tile_64_02.png",
                  "imageheight":64,
                  "imagewidth":64
                 }, 
                 {
                  "id":4,
-                 "image":"..\/..\/..\/..\/..\/PycharmProjects\/TiledDemo2021\/Assets\/paving_02_tile_64_01.png",
+                 "image":"paving_02_tile_64_01.png",
                  "imageheight":64,
                  "imagewidth":64
                 }, 
                 {
                  "id":5,
-                 "image":"..\/..\/..\/..\/..\/PycharmProjects\/TiledDemo2021\/Assets\/sand_01_tile_64_01.png",
+                 "image":"sand_01_tile_64_01.png",
                  "imageheight":64,
                  "imagewidth":64
                 }],
