@@ -21,6 +21,8 @@ class TiledWindow (arcade.Window):
         sample_map = arcade.tilemap.load_tilemap(self.map_location)
         self.mapscene1 = arcade.Scene.from_tilemap(sample_map)
         self.wall_list = sample_map.sprite_lists["wallLayer"]
+        temp = sample_map.get_tilemap_layer("Tile Layer 1")
+        print(temp)
         map2 = arcade.tilemap.load_tilemap(pathlib.Path.cwd()/'Assets'/'bigMap.json')
         self.mapscene2 = arcade.Scene.from_tilemap(map2)
         self.wall_list2 = map2.sprite_lists['wallLayer']
@@ -49,7 +51,7 @@ class TiledWindow (arcade.Window):
 
     def keep_player_centered(self):
         target_position = (self.player.center_x - self.width/2, self.player.center_y - self.height/2)
-        self.world_camera.move_to(target_position, .9) #second param is how fast to move to camera position
+        self.world_camera.move_to(target_position, .1) #second param is how fast to move to camera position
 
     def on_key_press(self, key: int, modifiers: int):
         if key == arcade.key.UP or key == arcade.key.W:
